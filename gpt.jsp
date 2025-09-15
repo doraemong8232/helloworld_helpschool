@@ -1,10 +1,9 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" isELIgnored="true" %>
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <title>학급 포털</title>
   <style>
     :root { --bg:#0b1020; --card:#121936; --ink:#eef2ff; --muted:#a8b3cf; --accent:#8ab4ff; }
@@ -31,6 +30,7 @@
   </style>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   <header>
     <div class="wrap row" style="justify-content:space-between;align-items:center">
       <div style="font-weight:700">학급 포털</div>
@@ -283,7 +283,7 @@
       `;
     }
 
-    // 초기화ㅇ
+    // 초기화
     const app = document.getElementById("app");
     window.addEventListener("hashchange", router);
     window.addEventListener("DOMContentLoaded", router);
